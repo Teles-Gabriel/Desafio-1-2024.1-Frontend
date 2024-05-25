@@ -3,99 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabriel Teles - Resume</title>
+    <title>Gabriel Teles</title>
+    <link rel="icon" href="../img/own.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="profile-pic">
-                <img src="../img/teles.png" alt="Foto do curriculo de Gabriel Teles, uma pessoa branca com cabelos longos.">
+    <nav class="navbar">
+        <div class="navbar-container">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="work-section">
+        <div class="work-content">
+            <h1>Gabriel Teles</h1>
+            <p>Full Stack Developer| JavaScript| HTML| CSS| NodeJs</p>
+            <p>Passionate about science and web development, I am currently pursuing a Bachelor's in Network Engineering at the University of Brasília and a Technologist degree in Systems Analysis and Development at UDF. My expertise spans Full Stack development, with a focus on creating intuitive and engaging user experiences using the latest Front-end and Back-end technologies.</p>
+        </div>
+        <div class="profile-image-container">
+            <img src="../img/teles.png" alt="Profile Image" class="profile-image">
+        </div>
+    </section>
+    <hr>
+    <section class="experience-section" id="education">
+        <h2>Education</h2>
+        <div class="experience">
+            <h3>Bachelor's degree Communication Network Engineering</h3>
+            <span>Brasília University</span>
+            <span>March 2024 - Ongoing</span>
+        </div>
+        <div class="experience">
+            <h3>Degree in Technology Systems Analysis and Development</h3>
+            <span>Federal District University</span>
+            <span>March 2024 - Ongoing</span>
+        </div>
+    </section>
+    <hr>
+    <section class="experience-section" id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Software Developer Intern</h3>
+            <span>Instituto Nacional de Tecnologia da Informação (ITI - BR)</span>
+            <span>Dec 2023 - Ongoing</span>
+            <p>I work as a full stack software developer intern on the Validar team. Validar is GOV-BR's main electronic signature validation service, using an average of 120,000 validations per day.</p>
+            <p>I was co-creator of the regression testing bot, TAB-2 (Test of Automation Bot 2), responsible for ensuring that everything is working correctly before deploying the service. </p>
+            <p>I was responsible for creating documentation of the main APIs used in Validar using Swagger.</p>
+            <p>I participate in discussions to implement new technologies and study new projects that will be developed.</p>
+        </div>
+        <div class="experience">
+            <h3>Front End Developer</h3>
+            <span>Cadê Você?</span>
+            <span>May 2024 - Ongoing</span>
+            <p>I am a volunteer leader of the front end technical team of the "Cadê Você?" project, which aims to enable owners and animals who were separated during the floods in Rio Grande do Sul to be reunited, being a web application that provides the means of search and registration of animals using ReactJs as Front's main technology, in addition to the use of AWS cloud computing.</p>
+        </div>
+        <div class="experience">
+            <h3>Trainee</h3>
+            <span>EngNet Consultoria</span>
+            <span>May 2024 - Ongoing</span>
+            <p>I am a full stack trainee at engnet consultancy, a junior communication network engineering company at UnB, participating in Front End and Back End training.</p>
+        </div>
+    </section>
+    <hr>
+    <section class="technology-section" id="technologies">
+        <h2>Tecnologias</h2>
+        <div class="technology-list">
+            <div class="technology">
+                <img src="../img/html.png" alt="HTML5 Logo" class="tech-icon">
+                <span>HTML5</span>
             </div>
-            <div class="contact-info">
-                <h1>Gabriel Teles Medeiros de Aguiar</h1>
-                <p>Email: <a href="mailto:gabrielteles0609@gmail.com">gabrielteles0609@gmail.com</a></p>
-                <p>Phone: +55 (61) 99446-9777</p>
-                <p>Location: Brasília-DF</p>
+            <div class="dot">•</div>
+            <div class="technology">
+                <img src="../img/css-3.png" alt="CSS3 Logo" class="tech-icon">
+                <span>CSS3</span>
+            </div>
+            <div class="dot">•</div>
+            <div class="technology">
+                <img src="../img/js.png" alt="JavaScript Logo" class="tech-icon">
+                <span>JavaScript</span>
+            </div>
+            <div class="dot">•</div>
+            <div class="technology">
+                <img src="../img/node-js.png" alt="Node.js Logo" class="tech-icon">
+                <span>Node.js</span>
+            </div>
+            <div class="dot">•</div>
+            <div class="technology">
+                <img src="../img/java.png" alt="Java Logo" class="tech-icon">
+                <span>Java</span>
+            </div>
+            <div class="dot">•</div>
+            <div class="technology">
+                <img src="../img/python.png" alt="Python Logo" class="tech-icon">
+                <span>Python</span>
+            </div>
+            <div class="dot">•</div>
+            <div class="technology">
+                <img src="../img/docker.png" alt="Docker Logo" class="tech-icon">
+                <span>Docker</span>
+            </div>
+            <div class="dot">•</div>
+            <div class="technology">
+                <img src="../img/c-.png" alt="C++ Logo" class="tech-icon">
+                <span>C++</span>
             </div>
         </div>
-        <div class="main-content">
-            <div class="left-column">
-                <section class="education">
-                    <h2>Education & Certifications</h2>
-                    <div class="education-item">
-                        <h3>Communication Network Engineering</h3>
-                        <p>Brasília University</p>
-                        <p>March 2024 - ongoing</p>
+    </section>
+    <hr>
+    <section class="carousel" id="projects">
+        <h2 class="carousel-title">Projects</h2>
+        <button class="carousel-button left-button">‹</button>
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="card">
+                    <a href="https://validar.iti.gov.br" target="_blank">
+                        <img src="../img/validar.png" alt="Project validar" class="project-image">
+                    </a>
+                    <div class="card-description">
+                        <h2>Validar</h2>
+                        <p> Validar is GOV-BR's main electronic signature validation service, using an average of 120,000 validations per day.</p>
                     </div>
-                    <div class="education-item">
-                        <h3>Systems Analysis and Development</h3>
-                        <p>Federal District University - UDF</p>
-                        <p>December 2022 - December 2023</p>
-                    </div>
-                    <div class="education-item">
-                        <h3>Full Stack Developer</h3>
-                        <p>Digital Innovation One - DIO</p>
-                        <p>December 2022 - December 2023</p>
-                    </div>
-                </section>
-                <section class="experience">
-                    <h2>Software Development Experience</h2>
-                    <div class="experience-item">
-                        <h3>Instituto Nacional de Tecnologia da Informação (ITI - BR)</h3>
-                        <p>December, 2023 - ongoing</p>
-                        <p>I work as a full stack software developer intern on the Validar team. Validar is GOV-BR's main electronic signature validation service, using an average of 120,000 validations per day.</p>
-                        <p>I was co-creator of the regression testing bot, TAB-2 (Test of Automation Bot 2), responsible for ensuring that everything is working correctly before deploying the service. </p>
-                        <p>I was responsible for creating documentation of the main APIs used in Validar using Swagger.</p>
-                        <p>I participate in discussions to implement new technologies and study new projects that will be developed.</p>
-                    </div>
-                    <div class="experience-item">
-                        <h3>Cadê você?</h3>
-                        <p>05/2024 - ongoing</p>
-                        <p>I am a volunteer leader of the front end technical team of the "Cadê Você?" project, which aims to enable owners and animals who were separated during the floods in Rio Grande do Sul to be reunited, being a web application that provides the means of search and registration of animals using ReactJs as Front's main technology, in addition to the use of AWS cloud computing..</p>
-                    </div>
-                    <div class="experience-item">
-                        <h3>Manteiguinha</h3>
-                        <p>02/2024 - ongoing</p>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/Teles-Gabriel/manteiguinha">
+                        <img src="../img/manteiguinha.png" alt="Project Manteiguinha" class="project-image">
+                    </a>
+                    <div class="card-description">
+                        
+                        <h2>Manteiguinha</h2>
                         <p>Manteiguinha is the front end of an electronic document signer prototype that consumes an API that we developed as a cryptography challenge. Our APIs are developed with Java and Spring Boot.</p>
                     </div>
-                    <div class="experience-item">
-                        <h3>Automation of free fall experiment with arduino</h3>
-                        <p>05/2023</p>
-                        <p>I developed an easily portable equipment to carry out free fall experiments and obtain the value of gravitational acceleration in different places as well as facilitate the teaching of physics using C++ and Arduino.</p>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/scooby-doo-cade-voce" target="_blank">
+                        <img src="../img/cade.png" alt="Project Cadê você?" class="project-image">
+                    </a>
+                    <div class="card-description">
+                        <h2>Automation of free fall experiment with arduino</h2>
+                        <p>obtain the value of gravitational acceleration in different places as well as facilitate the teaching of physics using C++ and Arduino.</p>
                     </div>
-                </section>
-            </div>
-            <div class="right-column">
-                <section class="philosophy">
-                    <h2>Philosophy of Life</h2>
-                    <p>"Do it with courage, Do it for love"</p>
-                </section>
-                <section class="languages">
-                    <h2>Languages</h2>
-                    <ul>
-                        <li>English - Intermediate</li>
-                        <li>Portuguese - Native</li>
-                        <li>Spanish - Basic</li>
-                        <li>French - Intermediate</li>
-                    </ul>
-                </section>
-                <section class="skills">
-                    <h2>Skills</h2>
-                    <div class="skill-item">
-                        <h3>Software Development</h3>
-                        <p>Used to C++, Javascript, Python, Java and Fortran languages</p>
-                    </div>
-                    <div class="skill-item">
-                        <h3>Project Management</h3>
-                        <p>Volunteer technical team leader for the Front end of the "Cadê Você" project</p>
-                    </div>
-                </section>
+                </div>
+                <div class="card">
+                    <a href="https://github.com/Teles-Gabriel/Automation-of-free-fall-experiment-with-arduino">
+                        <img src="../img/arduino.png" alt="Project 3" class="project-image">
+                    </a>
+                        <div class="card-description">
+                            <h2>Automation of free fall experiment with arduino</h2>
+                            <p>obtain the value of gravitational acceleration in different places as well as facilitate the teaching of physics using C++ and Arduino.</p>    
+                        </div>
+                </div>
             </div>
         </div>
-        <div class="footer">
-            <p><a href="https://www.github.com/Teles-Gabriel" target="_blank">github.com/Teles-Gabriel</a> | <a href="https://linkedin.com/in/gabriel-teles" target="_blank">linkedin.com/in/gabreil--teles</a> | <a href="mailto:gabrielteles0609@gmail.com" target="_blank">gabrielteles0609@gmail.com</a></p>
-        </div>
+        <button class="carousel-button right-button">›</button>
+    </section>
+    <hr>
+</section>
+<section class="experience-section" id="skills">
+    <h2>Skills</h2>
+    <div class="experience">
+        <h3>Front End Leader Technical</h3>
+        <span>Cadê Você?</span>
+        <p>Responsible for creating tasks and assigning them to the team, I used agile methodologies such as Scrum and used Kanban.</p>
     </div>
+</section>
+<hr>
+<section class="contact-section" id="contact">
+    <h2>Contatos</h2>
+    <div class="contact">
+        <img src="../img/github-logo.png" alt="GitHub Logo" class="contact-icon">
+        <a href="https://github.com/Teles-Gabriel" target="_blank">GitHub: Teles-Gabriel</a>
+    </div>
+    <div class="contact">
+        <img src="../img/linkedin.png" alt="LinkedIn Logo" class="contact-icon">
+        <a href="https://www.linkedin.com/in/gabriel--teles" target="_blank">LinkedIn: gabriel--teles</a>
+    </div>
+    <div class="contact">
+        <img src="../img/gmail.png" alt="Gmail Logo" class="contact-icon">
+        <a href="mailto:your.email@gmail.com">gabrielteles0609@gmail.com</a>
+    </div>
+</section>
+
+    <script src="main.js"></script>
 </body>
 </html>
